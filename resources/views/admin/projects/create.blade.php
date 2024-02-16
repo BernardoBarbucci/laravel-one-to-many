@@ -2,8 +2,8 @@
 
 @section('content')
     <main class="container-fluid bg-dark">
-        <section class="col-10 offset-1 p-3">
-            <h1 class="text-warning text-center">Create New Project</h1>
+        <section class="col-10 offset-1 p-2">
+            <h3 class="text-warning text-center">Create New Project</h3>
         </section>
         <section class="bg-dark d-flex flex-wrap justify-content-around">
             <div class="card m-2" style="width: 30rem;">

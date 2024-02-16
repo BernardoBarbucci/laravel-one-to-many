@@ -2,9 +2,9 @@
 
 @section('content')
     <main class="container-fluid bg-dark">
-        <section class="col-10 offset-1 p-3">
-            <h1 class="text-warning text-center">All projects</h1>
-        </section>
+        {{-- <section class="col-10 offset-1 p-3">
+            <h5 class="text-warning text-center">All projects</h5>
+        </section> --}}
         <section class="bg-dark d-flex flex-wrap justify-content-around">
             @forelse ($projects as $project)
                 <div class="card m-2" style="width: 15rem;">

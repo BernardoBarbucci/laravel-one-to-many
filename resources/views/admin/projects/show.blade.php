@@ -3,7 +3,7 @@
 @section('content')
     <main class="container-fluid bg-dark">
         <section class="col-10 offset-1 p-3">
-            <h1 class="text-warning text-center">Show Project Details </h1>
+            <h5 class="text-warning text-center">Show</h5>
         </section>
         <section class="bg-dark d-flex justify-content-center">
             <div class="card m-2" style="width: 30rem; min-height= 20rem;">

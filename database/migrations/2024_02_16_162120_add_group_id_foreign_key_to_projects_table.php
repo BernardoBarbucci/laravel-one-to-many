@@ -16,8 +16,8 @@ return new class extends Migration
             $table->unsignedBigInteger('group_id')->after('id');
 
             // creo un nuovo vincolo di chiave esterna su questa tabella ->
-            // nella colonna 'group_id' che fa riferimento alla colonna 'id' nella tabella 'users' 
-            $table->foreign('group_id')->references('id')->on('users');
+            // nella colonna 'group_id' che fa riferimento alla colonna 'id' nella tabella 'groups' 
+            $table->foreign('group_id')->references('id')->on('groups');
         });
     }
 

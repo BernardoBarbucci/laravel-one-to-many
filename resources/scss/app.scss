@@ -1,0 +1,19 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+// @import '~bootstrap';
+
+// importa bootstrap (aggiunto manualmente, il resto sopra gia c'era)
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+// Styles
+
+#main-dashboard {
+    height: 100vh;
+    background: linear-gradient(135deg, black, #08df0b);
+}

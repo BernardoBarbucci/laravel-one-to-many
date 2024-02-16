@@ -1,0 +1,73 @@
+        --> comandi per creare ed installare il progetto <--
+
+-
+composer create-project laravel/laravel nome-del-progetto
+
+-
+composer require laravel/ui
+
+- 
+composer require laravel/ui
+
+-
+php artisan ui bootstrap --auth
+
+-
+npm i 
+
+- [start the project from the template] 
+
+{copy paste .env.example e cambia il file nuovo in .env 
++ aggiungi root, nome del database e crea una key con ->
+    - 
+    php artisan key:generate
+}
+
+-
+composer install
+
+-
+npm i 
+
+- 
+npm run dev
+
+-
+php artisan serve
+
+-
+npm install sass
+[ho aggiunto in reources/js/app.js la pat per sass, gli assets e bootstrap, nel caso ricopiarlo e metterlo sotto al bootstrap di laravel:
+    // importo sass
+    import '~resources/scss/app.scss';
+
+    // assets
+    import.meta.glob([
+        '../img/**'
+    ])
+
+    // import bootstrap
+    import * as bootstrap from 'bootstrap';
+]
+
+
+        --> per cominciare a strutturare il progetto creo un controller : <--
+-
+php artisan make:controller NomeCartellaDaCreare\NomeControllerDaCreare
+
+- [creo controller, model, migration e seeder tutto gia pronto (il nome in questo caso è Project):]
+php artisan make:model Project --all
+{
+    se vuoi il controller separato allora prima crei model, migration e seeder e successivamente
+    specifichi dove creare il controller con '--resource' alla fine 
+}
+
+- [aggiunta path relativa a sass e cambiati i nomi dai quali partivano le path (erano tutte sass invece di scss)
+    - {da copiare dentro al vite.config.js}
+    // aggiunto per la path di sass
+    resolve: {
+        alias: {
+            '~resources': '/resources/',
+        }
+    }
+]

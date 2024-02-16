@@ -21,6 +21,7 @@ class ProjectSeeder extends Seeder
                 'duration' => '3 mesi',
                 'image' => 'https://images5.fanpop.com/image/photos/28000000/randomised-random-28065165-1024-819.jpg',
                 'color' => 'blue',
+                'group_id' => '1',
             ],
             [
                 'title' => 'Progetto 2',
@@ -29,6 +30,7 @@ class ProjectSeeder extends Seeder
                 'duration' => '2 mesi',
                 'image' => 'https://i.redd.it/nj357qlx86361.jpg',
                 'color' => 'green',
+                'group_id' => '1',
             ],
             [
                 'title' => 'Progetto 3',
@@ -37,6 +39,7 @@ class ProjectSeeder extends Seeder
                 'duration' => '5 mesi',
                 'image' => 'https://pise.ca/wp-content/uploads/2017/04/img-random-4.jpg',
                 'color' => 'red',
+                'group_id' => '3',
             ],
             [
                 'title' => 'Progetto 4',
@@ -45,6 +48,7 @@ class ProjectSeeder extends Seeder
                 'duration' => '8 mesi',
                 'image' => 'https://i0.wp.com/hyperallergic-newspack.s3.amazonaws.com/uploads/2021/12/11_29_21-Fire-and-Fusion-for-print-1-3-1200x1200.jpg?resize=780%2C780&quality=100&ssl=1',
                 'color' => 'yellow',
+                'group_id' => '2',
             ],
             [
                 'title' => 'Progetto 5',
@@ -53,6 +57,7 @@ class ProjectSeeder extends Seeder
                 'duration' => '6 mesi',
                 'image' => 'https://magictoolbox.sirv.com/images/magicslideshow/03/image-slideshow-04.jpg?scale.width=1000',
                 'color' => 'purple',
+                'group_id' => '5',
             ],
             [
                 'title' => 'Progetto 6',
@@ -61,6 +66,7 @@ class ProjectSeeder extends Seeder
                 'duration' => '10 mesi',
                 'image' => 'https://sensilab.monash.edu/new-sensilab/wp-content/uploads/2017/08/4949794-random-image.jpg',
                 'color' => 'orange',
+                'group_id' => '4',
             ],
             [
                 'title' => 'Progetto 7',
@@ -69,6 +75,7 @@ class ProjectSeeder extends Seeder
                 'duration' => '4 mesi',
                 'image' => 'https://i.redd.it/j2ex7z8tyqf21.jpg',
                 'color' => 'green',
+                'group_id' => '3',
             ],
             [
                 'title' => 'Progetto 8',
@@ -77,6 +84,7 @@ class ProjectSeeder extends Seeder
                 'duration' => '7 mesi',
                 'image' => 'https://images.pexels.com/photos/3844788/pexels-photo-3844788.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
                 'color' => 'blue',
+                'group_id' => '3',
             ],
             [
                 'title' => 'Progetto 9',
@@ -85,6 +93,7 @@ class ProjectSeeder extends Seeder
                 'duration' => '6 mesi',
                 'image' => 'https://images.unsplash.com/photo-1508138221679-760a23a2285b?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cmFuZG9tfGVufDB8fDB8fHww',
                 'color' => 'pink',
+                'group_id' => '6',
             ],
             [
                 'title' => 'Progetto 10',
@@ -93,6 +102,7 @@ class ProjectSeeder extends Seeder
                 'duration' => '9 mesi',
                 'image' => 'https://imgflip.com/s/meme/Batman-Slapping-Robin.jpg',
                 'color' => 'brown',
+                'group_id' => '3',
             ],
             [
                 'title' => 'Progetto 11',
@@ -101,6 +111,7 @@ class ProjectSeeder extends Seeder
                 'duration' => '19 mesi',
                 'image' => 'https://i.kym-cdn.com/entries/icons/facebook/000/045/373/cover9.jpg',
                 'color' => 'yellow',
+                'group_id' => '4',
             ],
             [
                 'title' => 'Progetto 12',
@@ -109,6 +120,7 @@ class ProjectSeeder extends Seeder
                 'duration' => '7 mesi',
                 'image' => 'https://www.cnet.com/a/img/resize/b91f76de73cb2fc61e3dd7112e4a3e768cac4fbd/hub/2012/12/17/b8f59d5e-fdb4-11e2-8c7c-d4ae52e62bcc/3s8ipj.jpg?auto=webp&fit=crop&height=675&width=1200',
                 'color' => 'green',
+                'group_id' => '2',
             ],
             [
                 'title' => 'Progetto 13',
@@ -117,6 +129,7 @@ class ProjectSeeder extends Seeder
                 'duration' => '1 mesi',
                 'image' => 'https://imgflip.com/s/meme/Cute-Cat.jpg',
                 'color' => 'brown',
+                'group_id' => '5',
             ],
             [
                 'title' => 'Progetto 14',
@@ -125,6 +138,7 @@ class ProjectSeeder extends Seeder
                 'duration' => '6 mesi',
                 'image' => 'https://repository-images.githubusercontent.com/260096455/47f1b200-8b2e-11ea-8fa1-ab106189aeb0',
                 'color' => 'black',
+                'group_id' => '4',
             ],
             [
                 'title' => 'Progetto 15',
@@ -133,6 +147,7 @@ class ProjectSeeder extends Seeder
                 'duration' => '11 mesi',
                 'image' => 'https://1.bp.blogspot.com/-iCnFX7eWVjs/XR9NQutHXcI/AAAAAAAAJ9k/ISWH3UXgJF8QJdsV6P9wh3agzOwOF_aYgCLcBGAs/s1600/cat-1285634_1920.png',
                 'color' => 'blue',
+                'group_id' => '3',
             ],
             [
                 'title' => 'Progetto 16',
@@ -141,6 +156,7 @@ class ProjectSeeder extends Seeder
                 'duration' => '6 mesi',
                 'image' => 'https://miro.medium.com/v2/resize:fit:1400/1*FI77MEPGWhj8Vfkb7OqfpQ.jpeg',
                 'color' => 'lime green',
+                'group_id' => '6',
             ],
             [
                 'title' => 'Progetto 17',
@@ -149,6 +165,7 @@ class ProjectSeeder extends Seeder
                 'duration' => '13 mesi',
                 'image' => 'https://as1.ftcdn.net/v2/jpg/02/90/23/74/1000_F_290237490_TSOa1KZr44QoBa6U667Mehnehc4RmOA6.jpg',
                 'color' => 'red',
+                'group_id' => '5',
             ],
             [
                 'title' => 'Progetto 18',
@@ -157,6 +174,7 @@ class ProjectSeeder extends Seeder
                 'duration' => '9 mesi',
                 'image' => 'https://f4.bcbits.com/img/a2088167244_65',
                 'color' => 'purple',
+                'group_id' => '4',
             ],
             [
                 'title' => 'Progetto 19',
@@ -165,6 +183,7 @@ class ProjectSeeder extends Seeder
                 'duration' => '9 mesi',
                 'image' => 'https://f4.bcbits.com/img/a3783170020_5.jpg',
                 'color' => 'white',
+                'group_id' => '6',
             ],
             [
                 'title' => 'Progetto 52',
@@ -173,6 +192,7 @@ class ProjectSeeder extends Seeder
                 'duration' => '80 mesi',
                 'image' => 'https://52projectsproject.files.wordpress.com/2020/10/52projects_book_cover_web.jpg',
                 'color' => 'green',
+                'group_id' => '4',
             ],
         ];
 

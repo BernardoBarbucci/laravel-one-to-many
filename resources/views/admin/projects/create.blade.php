@@ -39,6 +39,10 @@
                                 <label for="image" class="mb-1"><strong>Image:</strong></label>
                                 <input type="file" class="form-control mb-3" id="image" name="image">
                             </div>
+                            <div class="form-group">
+                                <label for="group_id" class="mb-1"><strong>Group ID:</strong></label>
+                                <input type="number" class="form-control mb-3" id="group_id" name="group_id">
+                            </div>
                             <button type="submit" class="btn btn-primary">Create Project</button>
                         </form>
                     </div>

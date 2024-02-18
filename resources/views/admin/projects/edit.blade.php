@@ -37,6 +37,11 @@
                                 <input type="text" class="form-control mb-3" id="color" name="color"
                                     value="{{ $project->color }}">
                             </div>
+                            <div class="form-group">
+                                <label for="group_id" class="mb-1"><strong>Group ID:</strong></label>
+                                <input type="numner" class="form-control mb-3" id="group_id" name="group_id"
+                                    value="{{ $project->group_id }}">
+                            </div>
                             <button type="submit" class="btn btn-primary">Save Changes</button>
                         </form>
                     </div>

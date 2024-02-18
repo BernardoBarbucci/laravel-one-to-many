@@ -18,6 +18,7 @@
                     <li class="list-group-item"><strong>Length:</strong> {{ $project->length }}</li>
                     <li class="list-group-item"><strong>Duration:</strong> {{ $project->duration }}</li>
                     <li class="list-group-item"><strong>Color:</strong> {{ $project->color }}</li>
+                    <li class="list-group-item">Group ID: {{ $project->group_id }}</li>
                 </ul>
                 <div class="card-body d-flex justify-content-between">
                     <a href="{{ route('admin.data.edit', $project) }}" class="btn btn-warning">Edit</a>

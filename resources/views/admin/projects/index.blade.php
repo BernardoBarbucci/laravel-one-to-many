@@ -18,6 +18,7 @@
                             <li class="list-group-item">Length: {{ $project['length'] }}</li>
                             <li class="list-group-item">Duration: {{ $project['duration'] }}</li>
                             <li class="list-group-item">Color: {{ $project['color'] }}</li>
+                            <li class="list-group-item">Group ID: {{ $project['group_id'] }}</li>
                         </ul>
                         <div class="card-body d-flex justify-content-between">
                             <a href="{{ route('admin.data.show', $project) }}" class="btn btn-success">Show</a>

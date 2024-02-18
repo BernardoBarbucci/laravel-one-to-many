@@ -24,7 +24,9 @@
 
     <div id="app">
 
-        @include('layouts.admin.header')
+        @auth
+            @include('layouts.admin.header')
+        @endauth
 
         <main class="bg-dark">
             @yield('content')

@@ -62,7 +62,7 @@ php artisan make:model Project --all
     specifichi dove creare il controller con '--resource' alla fine 
 }
 
-- [aggiunta path relativa a sass e cambiati i nomi dai quali partivano le path (erano tutte sass invece di scss)
+- [ aggiunta path relativa a sass e cambiati i nomi dai quali partivano le path (erano tutte sass invece di scss)
     - {da copiare dentro al vite.config.js}
     // aggiunto per la path di sass
     resolve: {
